@@ -28,13 +28,26 @@ Este projeto requer **Python 3.x** instalado, e **não exige a instalação de n
    ```
 3. Insira o número de vértices e a matriz de adjacência conforme solicitado.
 
+## Exemplo de Entrada e Saída
+   ```sh
+   Digite o número de vértices: 4
+Digite o número de arestas: 4
+O grafo é direcionado? (s/n): n
+Digite as arestas:
+0 1
+1 2
+2 3
+3 0
+   ```
+
+
 ## Relatório Técnico
 
 ### 1. Complexidade Computacional (P, NP, NP-Completo, NP-Difícil)
 
 O problema do **Caminho Hamiltoniano** pertence à classe **NP-Completo**:
 
-- **NP (Nondeterministic Polynomial Time)**: É possível verificar em tempo polinomial se uma solução é válida.
+- **NP**: É possível verificar em tempo polinomial se uma solução é válida.
 - **NP-Completo**: São problemas para os quais uma solução pode ser verificada em tempo polinomial e todos os problemas em NP podem ser reduzidos a ele em tempo polinomial.
 - O **Caminho Hamiltoniano** é equivalente ao Problema do Caixeiro Viajante (TSP), cuja versão de decisão também é NP-Completa.
 - Portanto, encontrar um caminho Hamiltoniano está entre os problemas mais difíceis da classe NP.
